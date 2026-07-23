@@ -1,0 +1,215 @@
+# ============================================================
+# Siddh's Blueprint — Hexo Theme Configuration
+# Engineering Blueprint design language for technical blogs.
+# Full option reference: see README.md
+# ============================================================
+
+# ---------- Site identity ----------
+brand:
+  name: "Siddh's Blueprint"
+  logo_prefix: "SIDDH'S"     # white part of the two-tone logo mark
+  logo_accent: "BLUEPRINT"   # cyan-accented part of the two-tone logo mark
+  tagline: "Engineering Docs"
+  description: "A living engineering blueprint: technical writing on Linux, containers, networking, security, AI, automation, cloud and self-hosted infrastructure."
+
+# ---------- Navigation ----------
+menu:
+  Home: /
+  Categories: /categories/
+  Timeline: /archives/
+  About: /about/
+
+# ---------- Appearance ----------
+appearance:
+  default_theme: dark          # dark | light
+  allow_theme_toggle: true
+  hero_autoplay_ms: 5000
+  posts_per_page: 6
+
+# ---------- Author / profile (used on the About page) ----------
+author:
+  name: "Siddh Mistry"
+  role: "Deputy Manager (Training) — Industrial Automation & PLC"
+  avatar: /images/whoami/avatar.png
+  bio: >
+    I train engineers on PLC programming, industrial automation, and Industry 4.0 — Mitsubishi
+    and Siemens control systems, HMI development, and the lean-manufacturing practices that keep
+    a shop floor running. This blog is where I write down the same things I teach in the training
+    room: systems, automation, and the tools that make them easier to maintain.
+  resume: https://mrblogger-my.sharepoint.com/:b:/g/personal/hello_mistrysiddh_com/IQADZG66ZlQURpdY1NmWQ4B_AYJ56dhwyD0mHA-G-6vkKAs?e=2jb1zY
+  email: mailto:hello@mistrysiddh.com
+
+social:
+  github: https://github.com/mistrysiddh
+  linkedin: https://www.linkedin.com/in/siddhmistry/
+  twitter: https://x.com/mrsiddhmistry
+  instagram: https://instagram.com/
+  youtube: https://www.youtube.com/@mistrysiddh
+
+experience:
+  - role: Deputy Manager (Training)
+    org: Maruti Suzuki Centre for Excellence
+    period: "03/2021 — Present"
+    description: "Deliver technical training on PLC programming, HMI development, mechatronics, Industry 4.0, cybersecurity awareness, 3D printing, and DOJO Room implementation across MSIL vendors. Train teams on Power BI, Excel, and PowerPoint for data reporting. Developed and maintain the MACE training website. Over 6,000 man-days of training delivered."
+  - role: Intern
+    org: Maruti Suzuki Centre for Excellence
+    period: "06/2019 — 12/2019"
+    description: "Trained on PLC programming (Mitsubishi FX/Q series, Siemens S7-300/S7-1500, Mitsubishi GOT2000) and MS Office. Built a 3D printing project on an open-source circuit and software stack."
+
+education:
+  - degree: "B.Tech"
+    school: "ITM Vocational University, Vadodara"
+    period: "2020"
+  - degree: "Diploma"
+    school: "B. S. Patel Polytechnic, Kherva"
+    period: "2016"
+  - degree: "SSC"
+    school: "St. Joseph ET High School, Bilimora"
+    period: "2012"
+
+skills:
+  - group: PLC & Controls
+    items: [Mitsubishi FX Series, Mitsubishi Q Series, Siemens S7-300, Siemens S7-1500, GX Works2, TIA Portal]
+  - group: HMI
+    items: [Mitsubishi GOT 1000, Mitsubishi GOT 2000, Siemens TP, GT Designer]
+  - group: Data & Reporting
+    items: [Power BI, Microsoft Excel, Microsoft PowerPoint, Microsoft Word, Microsoft Outlook]
+  - group: Automation & Manufacturing
+    items: [Industry 4.0, 3D Printing / Additive Manufacturing, Lean Manufacturing, DOJO Room Implementation]
+  - group: Security Awareness
+    items: [Cybersecurity Awareness Training]
+
+achievements:
+  - "Delivered 6,000+ man-days of training (75% software: PLC programming, Power BI, Excel; 25% technical: PLC programming, Industry 4.0, cybersecurity awareness, DOJO Room, 3D printing)"
+  - "Developed \"Skill on Wheels\" — a mobile training van for MSIL suppliers covering troubleshooting, DOJO Room rollout, and technical support"
+  - "Published a Power BI performance dashboard and an IRJET research paper on Network Attached Storage design"
+
+certifications: []
+
+projects:
+  - name: Power BI Performance Dashboard
+    description: "Interactive Power BI dashboard built for training and performance reporting."
+    url: "https://app.powerbi.com/view?r=eyJrIjoiOGRhMTk1Y2YtNzliMy00ODQyLTk4YjMtMWQzMzExMTI4ZGYwIiwidCI6IjE5YjI4YWY4LWRhNDgtNDVlMS04N2JlLTU0N2FlOTEzMTdhNSJ9"
+  - name: Network Attached Storage — Research Paper
+    description: "College research project published in IRJET on designing a Network Attached Storage system."
+    url: "https://www.irjet.net/archives/V7/i4/IRJET-V7I41236.pdf"
+
+favorite_tech: [PLC Programming, Siemens TIA Portal, Mitsubishi GX Works2, Power BI, Industry 4.0, 3D Printing]
+
+# ---------- Category → "System Module" display mapping ----------
+# Key must match the Hexo category slug used in post front-matter.
+category_modules:
+  linux:
+    label: "Linux"
+    name: "System Core"
+    code: MOD-01
+    icon: terminal-square
+    description: "Kernel internals, shell mastery, and operating-system fundamentals."
+  docker:
+    label: "Docker"
+    name: "Container Module"
+    code: MOD-02
+    icon: box
+    description: "Image builds, orchestration, and containerized deployment specs."
+  networking:
+    label: "Networking"
+    name: "Communication Layer"
+    code: MOD-03
+    icon: waypoints
+    description: "Protocols, routing schematics, and infrastructure wiring diagrams."
+  cybersecurity:
+    label: "Cybersecurity"
+    name: "Security Module"
+    code: MOD-04
+    icon: shield-half
+    description: "Threat models, hardening procedures, and defensive engineering."
+  ai:
+    label: "AI"
+    name: "Intelligence Engine"
+    code: MOD-05
+    icon: brain-circuit
+    description: "Model architecture, training pipelines, and applied machine learning."
+  automation:
+    label: "Automation"
+    name: "Control System"
+    code: MOD-06
+    icon: cog
+    description: "Scripts, pipelines, and self-operating workflow assemblies."
+  cloud:
+    label: "Cloud"
+    name: "Infrastructure Layer"
+    code: MOD-07
+    icon: server-cog
+    description: "Provisioning specs, scaling strategy, and distributed systems."
+  programming:
+    label: "Programming"
+    name: "Logic Engine"
+    code: MOD-08
+    icon: braces
+    description: "Language internals, design patterns, and software construction."
+  self-hosting:
+    label: "Self Hosting"
+    name: "Local Infrastructure"
+    code: MOD-09
+    icon: hard-drive
+    description: "Home lab builds, service hosting, and private infrastructure."
+  raspberry-pi:
+    label: "Raspberry Pi"
+    name: "Embedded Controller"
+    code: MOD-10
+    icon: cpu
+    description: "Single-board builds, GPIO wiring, and embedded firmware notes."
+
+# ---------- Footer engineering title block ----------
+title_block:
+  project_name: "Siddh's Blueprint"
+  document_id: "BPL-2026-HOME"
+  drawing_number: "DWG-00104"
+  revision: "REV-C"
+  status: "Published"
+  scale: "1:1 — Responsive"
+  version: "v1.2.0"
+  author: "S. Mistry"
+  license: "CC BY-NC 4.0"
+
+# ---------- Comments ----------
+# local:   session-local demo box, no backend, no setup (default)
+# giscus:  real, persisted comments backed by GitHub Discussions — free, no
+#          server to run. Set up in ~2 minutes at https://giscus.app: enable
+#          Discussions on a PUBLIC repo, install the giscus GitHub App on it,
+#          then paste the four values giscus.app generates for you below.
+# disabled: hide the comments section entirely
+comments:
+  provider: local
+  giscus:
+    repo: ""              # "username/repo"
+    repo_id: ""
+    category: "Announcements"
+    category_id: ""
+    mapping: "pathname"   # maps each post's URL to its own Discussion thread
+    reactions_enabled: true
+    input_position: "top"
+
+# ---------- Newsletter ----------
+# provider options:
+# local: cosmetic demo only — no email is sent or stored anywhere (default)
+# listmonk: wires the subscribe form to a real, self-hosted, open-source
+#           listmonk (https://listmonk.app) instance. Requires listmonk to be
+#           deployed somewhere reachable from your visitors' browsers and a
+#           public mailing list created in it — see the README's "Newsletter"
+#           section for the full self-hosting + CORS setup guide.
+newsletter:
+  provider: local
+  listmonk:
+    url: ""          # e.g. "https://list.yourdomain.com" — your listmonk instance
+    list_uuid: ""     # the public list's UUID, from listmonk → Lists
+
+# ---------- Search ----------
+search:
+  enable: true
+  # Fields indexed: title, excerpt, tags, category, author
+
+# ---------- SEO ----------
+seo:
+  og_image_fallback: https://picsum.photos/seed/siddhs-blueprint-og/1200/630
+  twitter_card: summary_large_image

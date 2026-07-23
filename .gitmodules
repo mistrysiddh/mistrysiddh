@@ -1,0 +1,3 @@
+[submodule "themes/siddhs-blueprint"]
+	path = themes/siddhs-blueprint
+	url = https://github.com/mistrysiddh/hexo-theme-siddhs-blueprint.git
