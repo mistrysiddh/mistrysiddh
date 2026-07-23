@@ -2,7 +2,7 @@
 title: "Cybersecurity Tips and Tricks"
 subtitle: "Practical habits that actually keep you safer online"
 description: ""
-cover: https://images.hdqwalls.com/wallpapers/mr-robot-season-3-rami-malek-w0.jpg
+cover: /images/posts/cybersecurity-tips-mr-robot.jpg
 categories:
   - Cybersecurity
 tags:

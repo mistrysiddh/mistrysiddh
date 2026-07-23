@@ -211,5 +211,5 @@ search:
 
 # ---------- SEO ----------
 seo:
-  og_image_fallback: https://picsum.photos/seed/siddhs-blueprint-og/1200/630
+  og_image_fallback: /images/whoami/Banner.png
   twitter_card: summary_large_image

@@ -2,7 +2,7 @@
 title: "WhatsApp Responds to Indian Govt's Letter to Withdraw Privacy Policy"
 subtitle: "MeitY pushes back, WhatsApp responds"
 description: "WhatsApp privacy policy: MeitY on Tuesday suggested WhatsApp to withdraw the latest privacy policy. The Facebook-owned messaging platform has responded."
-cover: https://www.brandsynario.com/wp-content/uploads/2018/06/WhatsApp-Audio.jpg
+cover: /images/posts/whatsapp-govt-response.jpg
 categories:
   - social media
 tags:

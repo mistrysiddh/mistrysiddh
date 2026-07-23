@@ -2,7 +2,7 @@
 title: "Raspberry Pi NAS System"
 subtitle: "Turn a Raspberry Pi into your own NAS, at home or on the go"
 description: "Use your Raspberry Pi as NAS server at home or on a drive wherever you go. Simple steps to install and easy to set up everything"
-cover: https://i.ytimg.com/vi/Jc4Y2jA4Yeg/maxresdefault.jpg
+cover: /images/posts/raspberry-pi-nas.jpg
 categories:
   - Raspberry Pi
   - Self Hosting

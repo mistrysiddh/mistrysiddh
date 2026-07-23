@@ -5,15 +5,15 @@
 # Site
 title: Siddh's Blueprint
 subtitle: ''
-description: ''
+description: 'A living engineering blueprint: technical writing on Linux, containers, networking, security, AI, automation, cloud and self-hosted infrastructure.'
 keywords:
-author: John Doe
+author: Siddh Mistry
 language: en
-timezone: ''
+timezone: 'Asia/Kolkata'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://mistrysiddh.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:

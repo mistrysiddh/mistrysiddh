@@ -2,7 +2,7 @@
 title: "Guiscrcpy"
 subtitle: "A GUI front-end for mirroring and recording your phone's screen"
 description: "Screen cast your phone and record high quality games on your laptop or desktop"
-cover: https://raw.githubusercontent.com/srevinsaju/guiscrcpy-docs/master/docs/screen3.png
+cover: /images/posts/guiscrcpy-screen.png
 categories:
   - Linux
 tags:

@@ -2,7 +2,7 @@
 title: "Cyber Security"
 subtitle: "A primer on hacking, DDoS attacks, and staying safe online"
 description: ""
-cover: https://c.wallhere.com/photos/96/13/Mr_Robot_Rami_Malek-1412613.jpg!d
+cover: /images/posts/cybersecurity-mr-robot.jpg
 categories:
   - Cybersecurity
 tags:

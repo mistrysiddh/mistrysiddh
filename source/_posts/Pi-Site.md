@@ -2,7 +2,7 @@
 title: "Creating a Website on Raspberry Pi at home"
 subtitle: "Hosting a full website from a Raspberry Pi on a LAMP stack"
 description: "This is a guide on how to create a website on a Raspberry Pi. This will teach you the basics of using a LAMP stack."
-cover: https://i.ytimg.com/vi/QdHvS0D1zAI/maxresdefault.jpg
+cover: /images/posts/pi-site-lamp.jpg
 categories:
   - Raspberry Pi
   - Linux
