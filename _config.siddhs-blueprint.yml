@@ -16,6 +16,7 @@ brand:
 menu:
   Home: /
   Categories: /categories/
+  Tags: /tags/
   Timeline: /archives/
   About: /about/
 

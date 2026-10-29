@@ -6,3 +6,11 @@ node_modules/
 public/
 .deploy*/
 _multiconfig.yml
+
+# Deploy artifacts — build output and the live symlink, not source
+releases/
+current
+
+# Tooling scratch output
+graphify-out/
+themes/*.broken-remnant-*/
