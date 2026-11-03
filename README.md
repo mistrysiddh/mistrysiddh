@@ -27,4 +27,6 @@ thanks for stopping by. if you're into linux, self-hosting, or local AI, you'll 
 
 ---
 
+*built with love, a raspberry pi, way too much coffee, and a little help from nisha 💋*
+
 *built with love, a raspberry pi, and way too much coffee.*
